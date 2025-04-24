@@ -16,6 +16,7 @@
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
     - [FPGA Frogger Clone - by _Antoine P._ (70%)](#fpga-frogger-clone---by-antoine-p-70)
   - [User Manual - Technical Writer](#user-manual---technical-writer)
+    - [FPGA Frogger Clone - by _Thibaud M._ (100%)](#fpga-frogger-clone---by-thibaud-m-100)
     - [Sportshield - by _Victor L._ (90%)](#sportshield---by-victor-l-90)
     - [Quickest Path – by _Camille G._ (80%)](#quickest-path--by-camille-g-80)
 
@@ -155,6 +156,25 @@ Professional testing, congratulations. Next, just make sure to check the English
 **Documents link:** [FPGA Frogger Clone](./QA/70-FPGA-FroggerClone-AntoineP/)
 
 ## User Manual - Technical Writer
+
+### FPGA Frogger Clone - by _Thibaud M._ (100%)
+
+**_Project overview:_**
+Recreate the classic Frogger Arcade Game using an on-chip FPGA and Verilog.
+
+**_Comments received:_**
+
+```text
++ Good document structure
++ Good typesetting
++ Good job providing an installer script
++ Excellent explanation of the gameplay
+```
+
+**_Summary:_**
+Professional and engaging manual, congratulations!
+
+**_Document link:_** [FPGA Frogger Clone](./UserManual/100-FPGA-FroggerClone-ThibaudM/user_manual_froggo.pdf)
 
 ### Sportshield - by _Victor L._ (90%)
 
