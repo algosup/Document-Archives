@@ -16,6 +16,7 @@
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
     - [FPGA Frogger Clone - by _Antoine P._ (70%)](#fpga-frogger-clone---by-antoine-p-70)
   - [User Manual - Technical Writer](#user-manual---technical-writer)
+    - [Sportshield - by _Victor L._ (90%)](#sportshield---by-victor-l-90)
     - [Quickest Path – by _Camille G._ (80%)](#quickest-path--by-camille-g-80)
 
 ## Introduction
@@ -148,12 +149,38 @@ Recreate the classic Frogger Arcade Game using an on-chip FPGA and Verilog.
 - Use a grammar checker “without significant bug.”
 ```
 
-**Summary:**  
+**_Summary:_**  
 Professional testing, congratulations. Next, just make sure to check the English in your documents, and work harder to make your documentation more concise, and structure your documents in way that’s most effective for them to be read/used.
 
 **Documents link:** [FPGA Frogger Clone](./QA/70-FPGA-FroggerClone-AntoineP/)
 
 ## User Manual - Technical Writer
+
+### Sportshield - by _Victor L._ (90%)
+
+**_Project overview:_**
+Development of an electronic component designed as an anti-theft device for skis and snowboards.
+**_Comments received:_**
+
+```text
++ Well-structured document.
++ Concise document.
++ Very detailed information on how to use the device’s functionalities.
++ Good images showing how to attach the device to a sports gear.
++ Good images of the application’s interface, it allows the user to get to know the application well through your manual.
++ Good job providing the operation temperature for using and storing the device.
++ Professional use of English.
++ The little extras such as “recycling” are useful and didn’t stop you from keeping your document concise. Kudos!
+
+± Good job advising the user to unpair the device before he or she sells it. You could have described what is the negative consequence of selling or purchasing a device without observing this instruction.
+± It’s good that you provide a French version of the manual, but it contains two images where there’s English text. Also, your English manual has several images with French text.
+± “Safety and Handling” section is good but feels slightly disjointed. Maybe you could have had one section about user safety and another one about operating conditions.
+```
+
+**_Summary:_**
+We were impressed with the professionalism of your document. Crucially, you found an outstanding balance between detail and concision.
+
+**Document link:** [Sporthield](./UserManual/90-Sportshield-VictorL/)
 
 ### Quickest Path – by _Camille G._ (80%)
 
