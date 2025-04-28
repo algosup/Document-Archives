@@ -107,7 +107,7 @@ Development of an API designed to calculate the fastest route between two locati
 **_Summary:_**
 The document is well-structured, with a clear response format and properly defined performance constraints. However, terminology should be more precise, the graph input format presented more clearly, and time units must be explicitly stated. (edited)
 
-**Document link:** [Quickest Path](./Functional/90-QuickestPath-AntoineP/functional_specification.md)
+**Document link:** [Quickest Path](./Functional/90-Adopte1Candidate-AntoineP/functional_specification.md)
 
 ### Quickest Path – by _Alexis L._ (70%)
 
