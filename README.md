@@ -10,7 +10,6 @@
     - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
     - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
   - [Functional Specification - Program Manager](#functional-specification---program-manager)
-    - [Quickest Path - by _Antoine P._ (90%)](#quickest-path---by-antoine-p-90)
     - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
   - [Technical Specification - Tech Lead](#technical-specification---tech-lead)
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
@@ -85,29 +84,6 @@ Very impressive work. You did the job of managing the project better than we wou
 
 ## Functional Specification - Program Manager
 
-### Quickest Path - by _Antoine P._ (90%)
-
-**_Project overview:_**
-Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
-
-**_Comments received:_**
-
-```text
-+ Good document structure.
-+ Effective use of headers to specify the response format.
-+ Clearly defined hardware and performance constraints.
-+ Good use of HTTP response codes.
-
-- Instead of “shortest path duration”, use a more precise term such as shortest path distance, or shortest path travel time.
-- The input format for the imported graph is only specified indirectly through error messages. There should be a dedicated section explicitly defining this format.
-- What is the unit of the “total_time” output? Seconds? Minutes? Hours?
-- You specify that the dataset size may not exceed 16GB, but you did not state what is the maximum amount of memory that your software may allocate.
-```
-
-**_Summary:_**
-The document is well-structured, with a clear response format and properly defined performance constraints. However, terminology should be more precise, the graph input format presented more clearly, and time units must be explicitly stated. (edited)
-
-**Document link:** [Quickest Path](./Functional/90-Adopte1Candidate-AntoineP/functional_specification.md)
 
 ### Quickest Path – by _Alexis L._ (70%)
 
