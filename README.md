@@ -6,12 +6,12 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
     - [Guidelines](#guidelines)
-  - [Project Management - Project Manager](#project-management---project-manager)
-    - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
-    - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
   - [Functional Specification - Program Manager](#functional-specification---program-manager)
     - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
     - [Quickest Path - by _Antoine P._ (90%)](#quickest-path---by-antoine-p-90)
+  - [Project Management - Project Manager](#project-management---project-manager)
+    - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
+    - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
   - [Technical Specification - Tech Lead](#technical-specification---tech-lead)
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
     - [FPGA Frogger Clone - by _Antoine P._ (70%)](#fpga-frogger-clone---by-antoine-p-70)
@@ -40,48 +40,6 @@ Feel free to explore the examples, learn from them, and when you're ready — co
 > [!CAUTION]
 > This archive is a resource for learning, **not for copy-pasting.**
 > Use the documents to inspire your own work, understand structure, and reflect on good practices. Your submissions should always be original and reflect your personal understanding.
-
-## Project Management - Project Manager
-
-### Serious Game - by _Maxime T._ (100%)
-
-**_Project overview:_**
-Development of a serious game designed to sensitize children and adults to the climate change issue.
-
-**_Comments received:_**
-
-```text
-+ Your Gantt charts presents a reasonable breakdown of your total workload.
-+ Excellent weekly reporting, very professional, and including a good level of detailing, without sacrificing concision. Kudos!
-+ Good reporting on your progression with your “KPI” spreadsheet.
-```
-
-**_Summary:_**
-Excellent work! We’d definitely hire you as a team manager.
-
-**Folder link:** [Serious Game](./Management/100-SeriousGame-MaximeT/)
-
-### Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)
-
-**Project overview:**  
-Creation of a Tinder-like recruitment application solely focusing on soft skills.
-
-**Comments received:**
-
-```text
-+ The Gantt chart is very well detailed.
-+ There’s a precise breakdown of the tasks.
-+ The comparison and reflection of the initial planning of the Gantt chart and the actual timeframes help understand how you performed.
-+ Although it’s not part of the planning, congratulations on your thoughtful post-mortem, as it indicates you learned how to plan things even better for next time. You also explained very clearly the discrepancies between your original plan and the execution.
-+ Very good charts showing how your team progressed to complete tasks over time.
-+ Good document structure and good English.
-+ Well detailed weekly reporting, all the information we’d be interested to follow up on your progress week-by-week is there.
-```
-
-**Summary:**  
-Very impressive work. You did the job of managing the project better than we would have, so you would be the ideal hire if we needed a project manager. This is the type of work which makes us happy to review. Keep it up!
-
-**Documents link:** [Adopte 1 Candidat](./Management/100-Adopte1Candidat-AntoineP/)
 
 ## Functional Specification - Program Manager
 
@@ -132,7 +90,53 @@ The document is well-structured, with a clear response format and properly defin
 
 **Document link:** [Quickest Path](./Functional/90-QuickestPath-AntoineP/functional_specifications.md)
 
+## Project Management - Project Manager
+
+### Serious Game - by _Maxime T._ (100%)
+
+**_Project overview:_**
+Development of a serious game designed to sensitize children and adults to the climate change issue.
+
+**_Comments received:_**
+
+```text
++ Your Gantt charts presents a reasonable breakdown of your total workload.
++ Excellent weekly reporting, very professional, and including a good level of detailing, without sacrificing concision. Kudos!
++ Good reporting on your progression with your “KPI” spreadsheet.
+```
+
+**_Summary:_**
+Excellent work! We’d definitely hire you as a team manager.
+
+**Folder link:** [Serious Game](./Management/100-SeriousGame-MaximeT/)
+
+### Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)
+
+**Project overview:**  
+Creation of a Tinder-like recruitment application solely focusing on soft skills.
+
+**Comments received:**
+
+```text
++ The Gantt chart is very well detailed.
++ There’s a precise breakdown of the tasks.
++ The comparison and reflection of the initial planning of the Gantt chart and the actual timeframes help understand how you performed.
++ Although it’s not part of the planning, congratulations on your thoughtful post-mortem, as it indicates you learned how to plan things even better for next time. You also explained very clearly the discrepancies between your original plan and the execution.
++ Very good charts showing how your team progressed to complete tasks over time.
++ Good document structure and good English.
++ Well detailed weekly reporting, all the information we’d be interested to follow up on your progress week-by-week is there.
+```
+
+**Summary:**  
+Very impressive work. You did the job of managing the project better than we would have, so you would be the ideal hire if we needed a project manager. This is the type of work which makes us happy to review. Keep it up!
+
+**Documents link:** [Adopte 1 Candidat](./Management/100-Adopte1Candidat-AntoineP/)
+
 ## Technical Specification - Tech Lead
+
+> [!NOTE]
+> This section is currently awaiting its first exemplary submissions! 
+> If you've received positive feedback on your technical specification, please consider contributing it to help guide future ALGOSUP students. Your document could become a valuable learning resource for others!
 
 ## Test Plan & Test Case - Quality Assurance
 
