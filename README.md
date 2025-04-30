@@ -6,11 +6,12 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
     - [Guidelines](#guidelines)
+  - [Functional Specification - Program Manager](#functional-specification---program-manager)
+    - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
+    - [Quickest Path - by _Antoine P._ (90%)](#quickest-path---by-antoine-p-90)
   - [Project Management - Project Manager](#project-management---project-manager)
     - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
     - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
-  - [Functional Specification - Program Manager](#functional-specification---program-manager)
-    - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
   - [Technical Specification - Tech Lead](#technical-specification---tech-lead)
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
     - [FPGA Frogger Clone - by _Antoine P._ (70%)](#fpga-frogger-clone---by-antoine-p-70)
@@ -39,6 +40,55 @@ Feel free to explore the examples, learn from them, and when you're ready — co
 > [!CAUTION]
 > This archive is a resource for learning, **not for copy-pasting.**
 > Use the documents to inspire your own work, understand structure, and reflect on good practices. Your submissions should always be original and reflect your personal understanding.
+
+## Functional Specification - Program Manager
+
+### Quickest Path – by _Alexis L._ (70%)
+
+**_Project overview:_**
+Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
+
+**_Comments received:_**
+
+```text
++ Excellent document structure
++ Clear and well-written product description
++ Precise mapping of HTTP status codes to error conditions
+
+- The expected input format for importing nodes should be formally specified
+- Unclear how many simultaneous requests the system should support
+- Unit of "travel_time" output is not defined (seconds, minutes, hours?)
+- Memory usage limits are not stated
+```
+
+**_Summary:_**  
+This document is well-organized and technically sound, with detailed product descriptions and strong handling of HTTP error codes. However, it would benefit from more precise technical specifications, especially regarding input formatting, performance limits, and data units.
+
+**Document link:** [Quickest Path](./Functional/70-QuickestPath-AlexisL/FunctionalSpecification.md)
+
+### Quickest Path - by _Antoine P._ (90%)
+
+**_Project overview:_**
+Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
+
+**_Comments received:_**
+
+```text
++ Good document structure.
++ Effective use of headers to specify the response format.
++ Clearly defined hardware and performance constraints.
++ Good use of HTTP response codes.
+
+- Instead of “shortest path duration”, use a more precise term such as shortest path distance, or shortest path travel time.
+- The input format for the imported graph is only specified indirectly through error messages. There should be a dedicated section explicitly defining this format.
+- What is the unit of the “total_time” output? Seconds? Minutes? Hours?
+- You specify that the dataset size may not exceed 16GB, but you did not state what is the maximum amount of memory that your software may allocate.
+```
+
+**_Summary:_**
+The document is well-structured, with a clear response format and properly defined performance constraints. However, terminology should be more precise, the graph input format presented more clearly, and time units must be explicitly stated. (edited)
+
+**Document link:** [Quickest Path](./Functional/90-QuickestPath-AntoineP/functional_specifications.md)
 
 ## Project Management - Project Manager
 
@@ -82,33 +132,11 @@ Very impressive work. You did the job of managing the project better than we wou
 
 **Documents link:** [Adopte 1 Candidat](./Management/100-Adopte1Candidat-AntoineP/)
 
-## Functional Specification - Program Manager
-
-
-### Quickest Path – by _Alexis L._ (70%)
-
-**_Project overview:_**
-Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
-
-**_Comments received:_**
-
-```text
-+ Excellent document structure
-+ Clear and well-written product description
-+ Precise mapping of HTTP status codes to error conditions
-
-- The expected input format for importing nodes should be formally specified
-- Unclear how many simultaneous requests the system should support
-- Unit of "travel_time" output is not defined (seconds, minutes, hours?)
-- Memory usage limits are not stated
-```
-
-**_Summary:_**  
-This document is well-organized and technically sound, with detailed product descriptions and strong handling of HTTP error codes. However, it would benefit from more precise technical specifications, especially regarding input formatting, performance limits, and data units.
-
-**Document link:** [Quickest Path](./Functional/70-QuickestPath-AlexisL/FunctionalSpecification.md)
-
 ## Technical Specification - Tech Lead
+
+> [!NOTE]
+> This section is currently awaiting its first exemplary submissions! 
+> If you've received positive feedback on your technical specification, please consider contributing it to help guide future ALGOSUP students. Your document could become a valuable learning resource for others!
 
 ## Test Plan & Test Case - Quality Assurance
 
