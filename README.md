@@ -7,18 +7,20 @@
   - [Introduction](#introduction)
     - [Guidelines](#guidelines)
   - [Functional Specification - Program Manager](#functional-specification---program-manager)
-    - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
     - [Quickest Path - by _Antoine P._ (90%)](#quickest-path---by-antoine-p-90)
+    - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
   - [Project Management - Project Manager](#project-management---project-manager)
     - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
     - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
   - [Technical Specification - Tech Lead](#technical-specification---tech-lead)
+    - [Web FPGA - by _Alexis L._ (40%)](#web-fpga---by-alexis-l-40)
   - [Test Plan \& Test Case - Quality Assurance](#test-plan--test-case---quality-assurance)
     - [FPGA Frogger Clone - by _Antoine P._ (70%)](#fpga-frogger-clone---by-antoine-p-70)
   - [User Manual - Technical Writer](#user-manual---technical-writer)
     - [FPGA Frogger Clone - by _Thibaud M._ (100%)](#fpga-frogger-clone---by-thibaud-m-100)
     - [Sportshield - by _Victor L._ (90%)](#sportshield---by-victor-l-90)
     - [Quickest Path – by _Camille G._ (80%)](#quickest-path--by-camille-g-80)
+    - [Web FPGA - by _Clementine C._ (80%)](#web-fpga---by-clementine-c-80)
 
 ## Introduction
 
@@ -43,29 +45,6 @@ Feel free to explore the examples, learn from them, and when you're ready — co
 
 ## Functional Specification - Program Manager
 
-### Quickest Path – by _Alexis L._ (70%)
-
-**_Project overview:_**
-Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
-
-**_Comments received:_**
-
-```text
-+ Excellent document structure
-+ Clear and well-written product description
-+ Precise mapping of HTTP status codes to error conditions
-
-- The expected input format for importing nodes should be formally specified
-- Unclear how many simultaneous requests the system should support
-- Unit of "travel_time" output is not defined (seconds, minutes, hours?)
-- Memory usage limits are not stated
-```
-
-**_Summary:_**  
-This document is well-organized and technically sound, with detailed product descriptions and strong handling of HTTP error codes. However, it would benefit from more precise technical specifications, especially regarding input formatting, performance limits, and data units.
-
-**Document link:** [Quickest Path](./Functional/70-QuickestPath-AlexisL/FunctionalSpecification.md)
-
 ### Quickest Path - by _Antoine P._ (90%)
 
 **_Project overview:_**
@@ -89,6 +68,29 @@ Development of an API designed to calculate the fastest route between two locati
 The document is well-structured, with a clear response format and properly defined performance constraints. However, terminology should be more precise, the graph input format presented more clearly, and time units must be explicitly stated. (edited)
 
 **Document link:** [Quickest Path](./Functional/90-QuickestPath-AntoineP/functional_specifications.md)
+
+### Quickest Path – by _Alexis L._ (70%)
+
+**_Project overview:_**
+Development of an API designed to calculate the fastest route between two locations using the U.S. road network.
+
+**_Comments received:_**
+
+```text
++ Excellent document structure
++ Clear and well-written product description
++ Precise mapping of HTTP status codes to error conditions
+
+- The expected input format for importing nodes should be formally specified
+- Unclear how many simultaneous requests the system should support
+- Unit of "travel_time" output is not defined (seconds, minutes, hours?)
+- Memory usage limits are not stated
+```
+
+**_Summary:_**  
+This document is well-organized and technically sound, with detailed product descriptions and strong handling of HTTP error codes. However, it would benefit from more precise technical specifications, especially regarding input formatting, performance limits, and data units.
+
+**Document link:** [Quickest Path](./Functional/70-QuickestPath-AlexisL/FunctionalSpecification.md)
 
 ## Project Management - Project Manager
 
@@ -134,9 +136,28 @@ Very impressive work. You did the job of managing the project better than we wou
 
 ## Technical Specification - Tech Lead
 
-> [!NOTE]
-> This section is currently awaiting its first exemplary submissions! 
-> If you've received positive feedback on your technical specification, please consider contributing it to help guide future ALGOSUP students. Your document could become a valuable learning resource for others!
+### Web FPGA - by _Alexis L._ (40%)
+
+**Project overview:**
+Development of a web application designed to allow users to visualize a FPGA circuit and its components.
+
+**Comments received:**
+
+```text
++ Good specification of the important information that the parser must identify and extract.
+
+± The “File and folder structure” section hints at a good software architecture design, but more clarity and detail are needed. You should specify all components and modules and their responsibilities. For instance, what is exactly the responsibility of the “simulator” module? This should be clearly stated in a listing of modules.
+± Good specification of the parser input and output formats, but we expected to see at least a brief description of the algorithm to compute the graph.
+± Good job specifying the placement of the components for the visualization. However, we expected a more complete methodology. For instance, how should a developer decide which inputs appear at the top of the screen and which at the bottom?
+
+- Be specific, rather than writing “The parser will handle different types of cells”, say the exact number of cell types that must be supported. Is it really just three? - We could not see any detailing on how to build the simulation steps—no algorithms of pseudocode.
+- We could not find in your document the specification of the messages that the different components need to exchange. For instance, how does the front end know that the backend processing is finished? Is it synchronous or asynchronous? What information is sent, besides the file? How does the backend communicate with the parser, are you going to use a socket?
+```
+
+**Summary:**
+The specification is a good start: many technical details are specified. However, crucial details have been left out, most notably the algorithm/mechanism for computing the simulation, and the detailing of how the components communicate with each other."
+
+**Document link:** [Web FPGA](./Technical/40-WebFPGA-AlexisL/TechnicalSpecifications.md)
 
 ## Test Plan & Test Case - Quality Assurance
 
@@ -227,3 +248,27 @@ Development of an API designed to calculate the fastest route between two locati
 ```
 
 **Document link:** [Quickest Path API](./UserManual/80-QuickestPath-CamilleG/user_manual.pdf)
+
+### Web FPGA - by _Clementine C._ (80%)
+
+**_Project overview:_**
+
+Development of a web application designed to allow users to visualize a FPGA circuit and its components.
+
+**_Comments received:_**
+
+```text
++ Good document structure.
++ Good typesetting.
++ Good installation instructions.
++ Good explanation of the simulated components.
++ Good job explaining a simple simulated circuit in the manual.
+- How can the user interact with buttons and inputs?
+
+The manual should say if these components are clickable and how they respond to a click.
+```
+
+**Summary:**
+For an even better grade, you could have showcased a student simulating a circuit, and explaining what the student observes and does in the software in order to improve his or her understanding of the circuit being simulated.
+
+**Document link:** [Web FPGA](./UserManual/80-WebFPGA-ClementineC/user-manual.pdf)
