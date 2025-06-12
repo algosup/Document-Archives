@@ -9,6 +9,7 @@
   - [Functional Specification - Program Manager](#functional-specification---program-manager)
     - [Quickest Path - by _Antoine P._ (90%)](#quickest-path---by-antoine-p-90)
     - [Quickest Path – by _Alexis L._ (70%)](#quickest-path--by-alexis-l-70)
+    - [Intermarché Bubble - by _Thibaud M._ (50%)](#intermarché-bubble---by-thibaud-m-50)
   - [Project Management - Project Manager](#project-management---project-manager)
     - [Serious Game - by _Maxime T._ (100%)](#serious-game---by-maxime-t-100)
     - [Adopte 1 Candidat (Flutter App) - by _Antoine P._ (100%)](#adopte-1-candidat-flutter-app---by-antoine-p-100)
@@ -91,6 +92,33 @@ Development of an API designed to calculate the fastest route between two locati
 This document is well-organized and technically sound, with detailed product descriptions and strong handling of HTTP error codes. However, it would benefit from more precise technical specifications, especially regarding input formatting, performance limits, and data units.
 
 **Document link:** [Quickest Path](./Functional/70-QuickestPath-AlexisL/FunctionalSpecification.md)
+
+### Intermarché Bubble - by _Thibaud M._ (50%)
+
+**_Project overview:_**
+Create a mobile application for Intermarché that allows users to find the best matching products based on a given recipe, made in no-code, thanks to Bubble.
+
+**_Comments received:_**
+
+```text
++ Strong and stylish branding for the app.
++ Project overview and objectives are clear and concise.
++ Good description of data sources for product information.
++ Good color palette.
++ Very detailed and complete design of the UX on Figma.
++ Good description of the search functionality.
++ All recipe, wine, and cheese data provided in a clean format.
+
+± The “Product Matching Strategy” provides a few lists, but we could not understand what exactly is the strategy for product matching. From this section, it’s implied that this functional aspect is still pending design.
+± The “Recommendation Algorithm” provides important directions as to how the functionality should be implemented, but doesn’t precisely define the mechanism. For example, it says that “Rising interest among youth in more diverse cheese varieties” amongst the Chinese population, but how exactly should this be weighted?
+
+- The sorting criteria for the search, and for the “local product highlight”, and for the recommendation list wasn’t specified.
+```
+
+**_Summary:_**
+The important functional aspects are almost fully specified. We expected to find precise details as to how exactly the recommendation system should work, and how listings of products should be ordered.
+
+**_Document link:_** [Intermarché Bubble](./Functional/50-IntermarcheBubble-ThibaudM/FunctionalSpecifications.md)
 
 ## Project Management - Project Manager
 
